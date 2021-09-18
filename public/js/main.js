@@ -311,7 +311,7 @@ function setMedal()
 
    if(score < 10)
       //signal that no medal has been won
-      return false;
+      medal = "broke";
 
    if(score >= 10)
       medal = "bronze";
